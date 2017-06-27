@@ -29,6 +29,16 @@ Training dna2vec embeddings
 5. Wait for a couple of days ...
 6. Once the training is done, there should be a `dna2vec-<ID>.w2v` and a corresponding `dna2vec-<ID>.txt` file in your `results/` directory.
 
+
+Training dna2vec embeddings
+---
+
+``` bash
+bash ./scripts/get_refseq_bacteria_genomes.sh
+bash ./scripts/run-in-venv.sh
+```
+
+
 Reading pretrained dna2vec
 ---
 
